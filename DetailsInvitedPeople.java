@@ -3,7 +3,7 @@ public class DetailsInvitedPeople {
 
 	private String name;
 	private Long userId;
-	
+
 	public String getName() {
 		return name;
 	}

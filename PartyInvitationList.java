@@ -19,7 +19,7 @@ public class PartyInvitationList {
 	public static void main(String[] args) throws FileNotFoundException {
 
 		String fileName = "gistfile1.txt";
-
+		
 		List<JSONObject> jsonObject = ReadSingleLineOfJsonFile(fileName);
 
 		List<DetailsInvitedPeople> listOfInvitedPeople = new ArrayList<DetailsInvitedPeople>();
@@ -28,7 +28,7 @@ public class PartyInvitationList {
 		DisplayInvitedCustomers(listOfInvitedPeople);
 
 	}
-	
+
 
 	public static void DisplayInvitedCustomers(List<DetailsInvitedPeople> listOfInvitedPeople) {
 
